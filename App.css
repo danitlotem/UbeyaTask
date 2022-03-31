@@ -1,0 +1,54 @@
+.App {
+	text-align: center;
+}
+.chat-feed {
+	height: 500px;
+	width: 100%;
+	overflow: scroll;
+	background-color: rgb(240, 240, 240);
+}
+.chat-title {
+	text-align: center;
+	color: #334c9e;
+	font-weight: 800;
+	font-size: 24px;
+}
+
+.chat-subtitle {
+	text-align: center;
+	color: #7554a0;
+	font-size: 12px;
+}
+.message-form-container {
+	position: absolute;
+	width: 100%;
+	padding: 18px;
+	background-color: rgb(240, 240, 240);
+}
+.message-form {
+	width: 95%;
+	border-radius: 6px;
+	background-color: rgb(118, 113, 113);
+	position: absolute;
+}
+.message {
+	padding: 12px;
+	font-size: 16px;
+	border-radius: 6px;
+	max-width: 60%;
+}
+
+.message-input {
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid white;
+	font-size: 15px;
+}
+.send-icon {
+	position: relative;
+}
+.message-block {
+	width: 100%;
+	display: inline-block;
+}
